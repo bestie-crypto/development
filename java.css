@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#___click___{
+    width: 40%;
+    height: 400px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+#txt{
+    width: 40%;
+    height: 300px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    margin: auto;
+}
+.imagewrapper{
+      width: 100%;
+    height: 600px;
+    position: relative;
+    border: 2px solid black;
+
+
+}
+.buttonwrapper{
+    width: 100%;
+    height: auto;
+    position: absolute;
+     z-index:10 ;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     top: 50%;
+
+}
+.mypics{
+    width: 100%;
+    height: 100%;
+
+}
+btnwrapper .btn{
+    padding: 10px;
+}
+.cont_wrapper{
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+
+}
+._clickme_{
+    width: calc(100% / 6);
+    height: 250px;
+    border: 2px solid blue;
+}
+#buttoncontener{
+    text-align: center;
+
+   
+
+
+}
+#mylabel{
+     display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica ;
+
+
+}
+.but{
+    padding: 20px 10px;
+    font-size: 1.5em;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 0.25;
+    border-radius: 5px;
+}
+.but:hover{
+    background-color: rgba(0, 0, 255, 0.384);
+}
